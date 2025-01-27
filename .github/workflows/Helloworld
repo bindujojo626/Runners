@@ -4,7 +4,7 @@ on:
   branches:
    - main
 jobs:
- first_job_hello_world
+ first_job_hello_world:
   runs_on: ubuntu-latest
   steps:
     - name: checkout code
